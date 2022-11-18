@@ -1,0 +1,10 @@
+.card__img {
+  width: 282px;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 555px) {
+  .card__img {
+    width: 100%;
+  }
+}

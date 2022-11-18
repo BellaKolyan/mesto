@@ -1,0 +1,12 @@
+.profile__user-editor {
+  display: flex;
+  gap: 18px;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 555px) {
+  .profile__user-editor {
+    gap: 10px;
+  }
+}
