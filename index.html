@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Места России</title>
   <meta name="description" content="Mesto">
-  <meta name="keywords" content="html, css, Java Script">
+  <meta name="keywords" content="html, css, JavaScript">
   <meta name="author" content="Bella">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="images/header__logo.png" alt="иконка сайта">
+    <img class="header__logo" src="images/header__logo.svg" alt="иконка сайта">
   </header>
 
   <main class="content">
@@ -22,7 +22,7 @@
         <img class="profile__avatar" src="images/custo.jpg" alt="Жак-ив Кусто">
         <div class="profile__user-info">
           <div class="profile__user-editor">
-            <h1 class="profile__title">Жак-ив Кусто</h1>
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
             <button class="profile__button-edit" type="button"></button>
           </div>
           <p class="profile__subtitle">Исследователь океана</p>
@@ -36,49 +36,49 @@
         <img class="card__img" src="images/karachaevsk.jpg" alt="Карачаевск">
         <div class="card__caption">
           <h2 class="card__title">Карачаевск</h2>
-          <button class="card__button-like" type="button"></button>
+          <button class="card__button-like card__button-like_active" type="button"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__img" src="images/elbrus.jpg" alt="Эльбрус">
         <div class="card__caption">
           <h2 class="card__title">Гора Эльбрус</h2>
-          <button class="card__button-like" type="button"></button>
+          <button class="card__button-like card__button-like_active" type="button"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__img" src="images/dombai.jpg" alt="Домбай">
         <div class="card__caption">
           <h2 class="card__title">Домбай</h2>
-          <button class="card__button-like" type="button"></button>
+          <button class="card__button-like card__button-like_active" type="button"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__img" src="images/elbrus.jpg" alt="Эльбрус">
         <div class="card__caption">
           <h2 class="card__title">Гора Эльбрус</h2>
-          <button class="card__button-like" type="button"></button>
+          <button class="card__button-like card__button-like_active" type="button"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__img" src="images/dombai.jpg" alt="Домбай">
         <div class="card__caption">
           <h2 class="card__title">Домбай</h2>
-          <button class="card__button-like" type="button"></button>
+          <button class="card__button-like card__button-like_active" type="button"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__img" src="images/karachaevsk.jpg" alt="Карачаево-Черкеск">
         <div class="card__caption">
           <h2 class="card__title">Карачаево-Черкеск</h2>
-          <button class="card__button-like" type="button"></button>
+          <button class="card__button-like card__button-like_active" type="button"></button>
         </div>
       </article>
     </section>
   </main>
 
   <footer class="footer">
-    <p class="footer__copyright">&copy;2022 Mesto Russia</p>
+    <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
   </footer>
 
   <section class="popup">
@@ -86,9 +86,9 @@
       <button class="popup__close" type="button"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
       <form action="#" class="popup__form" name="profile-edition" id="profile-edition">
-        <input type="text" class="popup__input popup__input_name" name="popup__input_name" id="popup__input_name"
-          required placeholder="Имя">
-        <input type="text" class="popup__input popup__input_description" name="popup__input_description"
+        <input type="text" class="popup__input popup__input_surrogat_name" name="popup__input_name"
+          id="popup__input_name" required placeholder="Имя">
+        <input type="text" class="popup__input popup__input_surrogat_description" name="popup__input_description"
           id="popup__input_description" required placeholder="Род деятельности">
         <button type="submit" class="popup__submit">Сохранить</button>
       </form>

@@ -1,5 +1,5 @@
 .card__button-like {
-  background: url(../../../images/like.jpg) center;
+  background: url(../../../images/like.svg) center;
   width: 22px;
   height: 19px;
   background-repeat: no-repeat;
@@ -11,4 +11,8 @@
 
 .card__button-like:hover {
   opacity: .6;
+}
+
+.card__button-like:focus {
+  background: url(../../../images/likeActive.svg);
 }

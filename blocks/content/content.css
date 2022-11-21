@@ -1,11 +1,12 @@
 .content {
   max-width: 100%;
-  padding: 40px 0 66px;
+  padding: 36.25px 0 66px;
 }
 
 @media screen and (max-width:320px) {
   .content {
-    padding: 42px 0 48px;
+    padding-top: 38.25px;
+    padding-bottom: 48px;
     margin: 0 19px;
   }
 }

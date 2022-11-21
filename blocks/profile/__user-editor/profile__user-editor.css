@@ -2,11 +2,13 @@
   display: flex;
   gap: 18px;
   align-items: baseline;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 555px) {
   .profile__user-editor {
     gap: 10px;
+    align-items: center;
+    padding: 0 19px 0 46px;
   }
 }
