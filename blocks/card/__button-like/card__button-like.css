@@ -6,7 +6,6 @@
   border: none;
   cursor: pointer;
   object-fit: contain;
-  margin: 5px 5px 1px 0;
 }
 
 .card__button-like:hover {

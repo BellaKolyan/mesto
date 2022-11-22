@@ -1,7 +1,7 @@
 .profile__user-info {
   display: flex;
   flex-direction: column;
-  margin: 22px 0 25px;
+  margin: 25px 0;
 }
 
 @media screen and (max-width: 555px) {
@@ -9,6 +9,6 @@
     align-items: center;
     text-align: center;
     margin-top: 22.5px;
-    margin-bottom: 36px;
+    margin-bottom: 33px;
   }
 }
